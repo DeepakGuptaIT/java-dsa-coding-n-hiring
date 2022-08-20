@@ -1,0 +1,2 @@
+I am content indside text file
+New line in text file

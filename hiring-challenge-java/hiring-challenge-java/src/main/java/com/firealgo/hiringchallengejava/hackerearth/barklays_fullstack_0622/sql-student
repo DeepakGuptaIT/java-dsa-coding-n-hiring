@@ -1,0 +1,5 @@
+CREATE TABLE `employee_directory`.`student` (
+  `RollNo` INT NULL,
+  `Name` VARCHAR(10) NULL,
+  `Gender` CHAR(1) NULL,
+  `DOJ` DATE NULL);

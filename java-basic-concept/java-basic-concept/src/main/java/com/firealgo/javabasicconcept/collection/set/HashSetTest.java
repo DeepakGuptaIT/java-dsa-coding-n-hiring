@@ -1,0 +1,19 @@
+package com.firealgo.javabasicconcept.collection.set;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class HashSetTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		createHashSet();
+
+	}
+	
+	private static void createHashSet() {
+		Set<String> set = new HashSet<>(5, 16);
+		System.out.println(set.size());
+	}
+
+}
