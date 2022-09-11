@@ -1,4 +1,4 @@
-package com.firealgo.javabasicconcept.file;
+package com.firelago.java.file;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -9,13 +9,13 @@ public class FileNewApiTest {
 
 	public static void main(String[] args) throws Exception {
 		
-		writeStringT();
-//		readStringT();
+//		writeStringT();
+		readStringT();
 
 	}
 	private static void readStringT() throws IOException {
 		
-		Path path = Paths.get("resources", "nio", "text.txt");
+		Path path = Paths.get("resource", "nio", "test.txt");
 		String output = Files.readString(path);
 		System.out.println(output);
 	}
@@ -30,7 +30,6 @@ public class FileNewApiTest {
 		String s = "jay mata di";
 		s += "\n jor se bole";
 		s += "\n kya baat ahai444";
-		Files.createFile(path);
 		Files.writeString(path, s);
 	}
 
