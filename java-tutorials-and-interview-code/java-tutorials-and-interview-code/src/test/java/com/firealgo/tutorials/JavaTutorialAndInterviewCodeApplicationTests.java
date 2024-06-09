@@ -1,4 +1,4 @@
-package com.firealgo.java_tutorials_and_interview_code;
+package com.firealgo.tutorials;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

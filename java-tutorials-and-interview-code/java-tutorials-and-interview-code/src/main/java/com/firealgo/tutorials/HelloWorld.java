@@ -1,4 +1,4 @@
-package com.firealgo.java_tutorials_and_interview_code;
+package com.firealgo.tutorials;
 
 public class HelloWorld {
     public static void main(String[] args) {

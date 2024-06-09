@@ -1,4 +1,4 @@
-package com.firealgo.java_tutorials_and_interview_code;
+package com.firealgo.tutorials;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
