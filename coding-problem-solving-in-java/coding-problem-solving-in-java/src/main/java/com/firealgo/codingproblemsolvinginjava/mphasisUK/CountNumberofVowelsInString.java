@@ -13,7 +13,7 @@ public class CountNumberofVowelsInString {
 		
 	}
 
-	private static int countVowels(String string) {
+	public static int countVowels(String string) {
 		int count = 0;
 		char[] input = string.toLowerCase().toCharArray();
 		for (char ch : input) {

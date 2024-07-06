@@ -8,7 +8,7 @@ public class CheckIfVowelIsPresentInString {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		boolean flag = checkVowel("Cbc");
+		boolean flag = checkVowel("aCbc");
 		if (flag)
 			System.out.println("Vowel is presnt");
 		else

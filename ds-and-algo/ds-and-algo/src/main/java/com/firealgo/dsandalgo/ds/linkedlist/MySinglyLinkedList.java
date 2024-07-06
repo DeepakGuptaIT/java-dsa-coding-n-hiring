@@ -14,17 +14,11 @@ public class MySinglyLinkedList {
 	}
 	public Node head;
 	public MySinglyLinkedList() {
-		// TODO Auto-generated constructor stub
 		this.head = null;
 	}
+	// Insertion is happening in front. New node is becoming head
 	public void insertNode(int data) {
 		Node node = new Node(data);
-//		if(this.head == null) {
-//			this.head = node;
-//		} else {
-//			
-//			node.next = head;
-//		}
 		if (this.head != null) {
 			node.next = head;
 		}

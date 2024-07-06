@@ -6,10 +6,11 @@ import java.util.stream.Collectors;
 import java.math.*;
 
 /**
- * 
+ *
  * @author Deepak Kumar
  * @date Mar 28, 2021
- * @problem_link https://practice.geeksforgeeks.org/problems/plus-one/1/
+ * @problem_link <a href="https://practice.geeksforgeeks.org/problems/plus-one/1/">geeksforgeeks problem link</a>
+ Note - this is an easy get started problem
  */
 public class AddOne {
 
@@ -31,11 +32,20 @@ public class AddOne {
 			//System.out.println("T = "+T + ", N = "+N + ", Array = " +Arrays.toString(a));
 			List<Integer> arr = Arrays.stream(a).boxed().collect(Collectors.toList());
 			increment(arr, N);
+			increment2(a, N);
 		}
 		br.close();
 
 	}
-	
+
+	// solution 02 - (july 2024)
+	private static void increment2(int[] a, int n) {
+		var str = Arrays.stream(a).mapToObj(String::valueOf).collect(Collectors.joining(""));
+		int sum = Integer.parseInt(str) + 1;
+		System.out.println(Arrays.toString(String.valueOf(sum).toCharArray()));
+	}
+
+	// solution 01
 	static List<Integer> increment(List<Integer> arr , int N) {
         // code here
 		String str = arr.stream().map(e -> e+"").collect(Collectors.joining());
