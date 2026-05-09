@@ -5,16 +5,16 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.5.4</version>
+		<version>3.3.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.firelago</groupId>
+	<groupId>com.firealgo</groupId>
 	<artifactId>java-ds-algo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>java-ds-algo</name>
 	<description>The master project for learning and exploring java ds and algo</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>21</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
