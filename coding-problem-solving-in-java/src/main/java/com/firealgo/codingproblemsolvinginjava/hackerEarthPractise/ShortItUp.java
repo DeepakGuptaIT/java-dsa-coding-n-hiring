@@ -6,7 +6,7 @@ import java.util.Arrays;
  * <a href="https://www.hackerearth.com/practice/interviews/code-explained?utm_source=new_practice">Problem Link</a>
  *
  * @author deepak
- * {@link https://youtu.be/V_RwZc-c6hs}
+ * <a href="https://youtu.be/V_RwZc-c6hs">youtube</a>
  * Problem statement -
  * Given an array of zeros, ones and twos.
  * Output - sort the array inplace.
@@ -21,8 +21,8 @@ public class ShortItUp {
         int[] arr = {0, 1, 2, 0, 2};
         arr = sortArray(arr, arr.length);
         System.out.println("using sol1 \n= "+Arrays.toString(arr));
-		arr = sortArraySol2(arr, arr.length);
-		System.out.println("using sol2 \n= "+ Arrays.toString(arr));
+//		arr = sortArraySol2(arr, arr.length);
+//		System.out.println("using sol2 \n= "+ Arrays.toString(arr));
     }
 
     private static int[] sortArraySol2(int[] arr, int n) {

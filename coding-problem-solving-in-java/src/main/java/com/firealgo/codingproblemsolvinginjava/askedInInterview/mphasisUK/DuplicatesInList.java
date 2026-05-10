@@ -1,4 +1,4 @@
-package com.firealgo.codingproblemsolvinginjava.mphasisUK;
+package com.firealgo.codingproblemsolvinginjava.askedInInterview.mphasisUK;
 
 import java.util.Arrays;
 import java.util.HashMap;

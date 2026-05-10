@@ -1,4 +1,4 @@
-package com.firealgo.codingproblemsolvinginjava.mphasisUK;
+package com.firealgo.codingproblemsolvinginjava.askedInInterview.mphasisUK;
 
 /**
  * Count the number of vowels present in the string.

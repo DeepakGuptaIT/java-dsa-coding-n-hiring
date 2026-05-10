@@ -1,4 +1,4 @@
-package com.firealgo.codingproblemsolvinginjava.mphasisUK;
+package com.firealgo.codingproblemsolvinginjava.askedInInterview.mphasisUK;
 
 /**
  * Print or return a Boolean value if vowel present in the string.- ds-done
