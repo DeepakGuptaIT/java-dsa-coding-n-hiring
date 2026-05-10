@@ -21,37 +21,16 @@ This project provides implementations and explanations of fundamental and advanc
 - **GroupId**: com.firealgo
 - **ArtifactId**: ds-and-algo
 
-## Project Structure
+## Top Leetcode Problems
+[leetcode-75](https://leetcode.com/studyplan/leetcode-75/)
 
-```
-src/
-├── main/
-│   ├── java/          # Implementation files organized by topic
-│   └── resources/     # Configuration files
-└── test/
-    └── java/          # Test cases for algorithms
-```
 
-## Getting Started
 
-### Prerequisites
-- Java 21 or higher
-- Maven 3.6+
+## How to Use This Project
 
-### Build
-```bash
-mvn clean install
-```
-
-### Run Tests
-```bash
-mvn test
-```
-
-### Run Application
-```bash
-mvn spring-boot:run
-```
+- Explore the implementations for each data structure and algorithm.
+- Study the provided examples to learn complexity trade-offs.
+- Use this project as a reference when solving new algorithm problems.
 
 ## Key Features
 
@@ -60,6 +39,3 @@ mvn spring-boot:run
 - Time and space complexity analysis
 - Real-world use case examples
 
-## License
-
-All rights reserved.

@@ -25,37 +25,11 @@ This project explores advanced Java features, patterns, and best practices for e
 - **GroupId**: com.firealgo
 - **ArtifactId**: java-advanced-concept
 
-## Project Structure
+## How to Use This Project
 
-```
-src/
-├── main/
-│   ├── java/          # Advanced concept implementations
-│   └── resources/     # Configuration files
-└── test/
-    └── java/          # Example tests for advanced features
-```
-
-## Getting Started
-
-### Prerequisites
-- Java 21 or higher
-- Maven 3.6+
-
-### Build
-```bash
-mvn clean install
-```
-
-### Run Tests
-```bash
-mvn test
-```
-
-### Run Application
-```bash
-mvn spring-boot:run
-```
+- Begin with concurrency and generics before moving to reflection and streams.
+- Compare implementations to understand trade-offs in performance and readability.
+- Use Maven from the module root to compile and run targeted tests.
 
 ## Learning Path
 

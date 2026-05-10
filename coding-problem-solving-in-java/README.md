@@ -18,37 +18,12 @@ This project contains solutions to coding challenges from platforms like:
 - **GroupId**: com.firealgo
 - **ArtifactId**: coding-problem-solving-in-java
 
-## Project Structure
+## How to Use This Project
 
-```
-src/
-├── main/
-│   ├── java/          # Source code for solutions
-│   └── resources/     # Configuration files
-└── test/
-    └── java/          # Unit tests
-```
-
-## Getting Started
-
-### Prerequisites
-- Java 21 or higher
-- Maven 3.6+
-
-### Build
-```bash
-mvn clean install
-```
-
-### Run Tests
-```bash
-mvn test
-```
-
-### Run Application
-```bash
-mvn spring-boot:run
-```
+- Explore solution packages by platform and problem category.
+- Keep new implementations organized under `src/main/java`.
+- Use Maven from the project root to compile and verify tests.
+- Document the problem description and approach within each solution.
 
 ## Contributing
 

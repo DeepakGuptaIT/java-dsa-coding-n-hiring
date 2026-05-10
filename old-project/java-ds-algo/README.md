@@ -15,37 +15,11 @@ This is an archived/legacy project that served as the original foundation for Ja
 - **ArtifactId**: java-ds-algo
 - **Status**: Legacy/Archived
 
-## Project Structure
+## How to Use This Project
 
-```
-src/
-├── main/
-│   ├── java/          # Legacy algorithm implementations
-│   └── resources/     # Configuration files
-└── test/
-    └── java/          # Test cases
-```
-
-## Getting Started
-
-### Prerequisites
-- Java 21 or higher
-- Maven 3.6+
-
-### Build
-```bash
-mvn clean install
-```
-
-### Run Tests
-```bash
-mvn test
-```
-
-### Run Application
-```bash
-mvn spring-boot:run
-```
+- Use this legacy module for historical reference and comparison with newer implementations.
+- Refer to the migration notes when moving concepts to the current projects.
+- Keep this project archived rather than using it for active development.
 
 ## Migration Notes
 

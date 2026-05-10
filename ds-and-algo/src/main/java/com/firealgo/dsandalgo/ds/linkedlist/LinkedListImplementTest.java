@@ -1,18 +1,18 @@
 package com.firealgo.dsandalgo.ds.linkedlist;
 
-import com.firealgo.dsandalgo.ds.linkedlist.MySinglyLinkedList.Node;
+import com.firealgo.dsandalgo.ds.linkedlist.MySinglyLinkedListV1.Node;
 
 public class LinkedListImplementTest {
 	
 	public static void main(String[] args) {
-		MySinglyLinkedList llist = new MySinglyLinkedList();
+		MySinglyLinkedListV1 llist = new MySinglyLinkedListV1();
 		llist.insertNode(5);
 		llist.insertNode(10);
 		llist.insertNode(20);
 		printList(llist);
 	}
 
-	private static void printList(MySinglyLinkedList llist) {
+	private static void printList(MySinglyLinkedListV1 llist) {
 		// TODO Auto-generated method stub
 		Node node = llist.head;
 		while(node != null) {

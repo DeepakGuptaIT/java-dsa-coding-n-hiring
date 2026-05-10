@@ -23,37 +23,11 @@ This project contains well-documented tutorial code and best practices for Java 
 - **ArtifactId**: java-tutorials-and-interview-code
 - **Purpose**: For Java tutorials and interview preparation only
 
-## Project Structure
+## How to Use This Project
 
-```
-src/
-├── main/
-│   ├── java/          # Tutorial code and patterns
-│   └── resources/     # Configuration files
-└── test/
-    └── java/          # Example usage and test cases
-```
-
-## Getting Started
-
-### Prerequisites
-- Java 21 or higher
-- Maven 3.6+
-
-### Build
-```bash
-mvn clean install
-```
-
-### Run Tests
-```bash
-mvn test
-```
-
-### Run Application
-```bash
-mvn spring-boot:run
-```
+- Review tutorial topics and sample code before applying them to interview practice.
+- Leverage the example test cases to validate your understanding.
+- Keep the code modular, and reuse patterns in your own projects.
 
 ## How to Use
 

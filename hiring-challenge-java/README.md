@@ -21,40 +21,11 @@ This project contains implementations for hiring challenges and interview proble
 - **GroupId**: com.firealgo
 - **ArtifactId**: hiring-challenge-java
 
-## Project Structure
+## How to Use This Project
 
-```
-src/
-├── main/
-│   ├── java/          # Challenge solutions
-│   └── resources/     # Configuration and test data
-test/
-└── java/              # Test cases and validation
-docs/
-└── 2022/              # Documentation for specific years/companies
-    └── barklays_fullstack_0622/
-```
-
-## Getting Started
-
-### Prerequisites
-- Java 21 or higher
-- Maven 3.6+
-
-### Build
-```bash
-mvn clean install
-```
-
-### Run Tests
-```bash
-mvn test
-```
-
-### Run Application
-```bash
-mvn spring-boot:run
-```
+- Review company-specific challenge packages to understand requirements and constraints.
+- Use test cases to validate edge cases and performance behavior.
+- Keep solutions modular and reusable for future interview practice.
 
 ## Documentation
 

@@ -25,37 +25,11 @@ This project covers essential Java programming concepts suitable for beginners a
 - **GroupId**: com.firealgo
 - **ArtifactId**: java-basic-concept
 
-## Project Structure
+## How to Use This Project
 
-```
-src/
-├── main/
-│   ├── java/          # Basic concept implementations
-│   └── resources/     # Configuration files
-└── test/
-    └── java/          # Test cases for concepts
-```
-
-## Getting Started
-
-### Prerequisites
-- Java 21 or higher
-- Maven 3.6+
-
-### Build
-```bash
-mvn clean install
-```
-
-### Run Tests
-```bash
-mvn test
-```
-
-### Run Application
-```bash
-mvn spring-boot:run
-```
+- Start with core concepts and progress through object-oriented programming topics.
+- Study each example and adapt it to your own practice problems.
+- Use Maven from the module root to compile and run tests as needed.
 
 ## Learning Recommendations
 
