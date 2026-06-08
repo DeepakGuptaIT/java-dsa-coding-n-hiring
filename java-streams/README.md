@@ -1,20 +1,29 @@
-# Read Me First
-The following was discovered as part of building this project:
+# Employee Management System
 
-* The original package name 'com.firealgo.java-streams' is invalid and this project uses 'com.firealgo.javastreams' instead.
+This project is a Spring Boot application that provides various REST APIs for managing employee data. It includes operations such as filtering, grouping, partitioning, and mapping employee information.
 
-# Getting Started
+## Features
 
-### URL
-For Emps
+- **Employee Operations**: Perform operations like finding highest/lowest paid employees, calculating average salary, and more.
+- **Aggregation Operations**: Includes salary statistics, department-wise salary totals, and advanced salary-based queries.
+- **Grouping Operations**: Group employees by department, salary category, and other criteria.
+- **Partitioning Operations**: Partition employees based on salary or other attributes.
+- **Mapping Operations**: Map employee details like ID to full name or department-wise mappings.
+- **Advanced Stream Problems**: Solve complex queries like finding duplicate names, employees with the same salary, and more.
 
-* http://localhost:8080/emps/all
-* http://localhost:8080/emps/all-with-duplicates
-* 
+## API Documentation
 
-### Guides
-The following guides illustrate how to use some features concretely:
+This project includes Swagger for API documentation. You can access the Swagger UI at:
 
-* abc
-* 
+```
+http://localhost:8080/swagger-ui.html
+```
 
+Swagger provides an interactive interface to explore and test the available APIs.
+
+## Technologies Used
+
+- **Java**: Programming language.
+- **Spring Boot**: Framework for building REST APIs.
+- **Maven**: Build tool for dependency management.
+- **Swagger**: API documentation and testing tool.
