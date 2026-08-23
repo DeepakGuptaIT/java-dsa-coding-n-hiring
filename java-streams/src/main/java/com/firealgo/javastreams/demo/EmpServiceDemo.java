@@ -1,7 +1,13 @@
 package com.firealgo.javastreams.demo;
 
 import com.firealgo.javastreams.dao.EmpDao;
+import com.firealgo.javastreams.entity.Emp;
 import com.firealgo.javastreams.service.EmpService;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 /**
  * Console playground for testing Java Stream API examples.
@@ -32,16 +38,25 @@ public class EmpServiceDemo {
         // -----------------------------------------------------------------
 
         testGetAllEmployees();
+        testSortEmp();
 
 //         testGetAllEmployeesWithDuplicates();
         // testDistinctDepartments();
-         testWellPaidEmployees();
+//         testWellPaidEmployees();
         // testSortedEmployeeNames();
         // testHighestPaidEmployee();
         // testGroupEmployeesByDepartment();
         // testHighestSalaryByDepartment();
         // testPartitionEmployeesBySalary();
         // testEmployeeIdToFullNameMap();
+    }
+
+    private static void testSortEmp() {
+//        service.empStream().forEach();
+        List<Emp> mutableList = new ArrayList<>(service.getAllEmp());
+        mutableList.sort(Comparator.comparing(Emp::getDept));
+        System.out.println(mutableList);
+
     }
 
     // -------------------------------------------------------------------------

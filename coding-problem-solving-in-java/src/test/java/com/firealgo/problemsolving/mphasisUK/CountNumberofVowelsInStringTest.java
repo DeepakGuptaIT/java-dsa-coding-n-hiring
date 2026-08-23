@@ -1,6 +1,6 @@
 package com.firealgo.problemsolving.mphasisUK;
 
-import com.firealgo.problemsolving.askedInInterview.mphasisUK.CountNumberofVowelsInString;
+import com.firealgo.problemsolving.arrayAndString.prblems.CountNumberofVowelsInString;
 import org.apache.logging.log4j.util.Strings;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

@@ -43,7 +43,111 @@ Examples:
 ❌ MergeSortedArrayTests.java
 ❌ Test_MergeSortedArray.java
 ```
-
+## Folder Structure
+com.deepak.dsa/
+│
+├── arrays/
+│   ├── problems/       ← ALL solved Array problems
+│   ├── top/            ← ⭐ Selected important problems
+│   ├── leetcode150/    ← 📚 LeetCode 150
+│   └── practice/       ← 🔄 Currently practicing
+│
+├── strings/
+│   ├── problems/
+│   ├── top/
+│   ├── leetcode150/
+│   └── practice/
+│
+├── hashmap/
+│   ├── problems/
+│   ├── top/
+│   ├── leetcode150/
+│   └── practice/
+│
+├── linkedlist/
+│   ├── problems/
+│   ├── top/
+│   ├── leetcode150/
+│   └── practice/
+│
+├── stack/
+│   ├── problems/
+│   ├── top/
+│   ├── leetcode150/
+│   └── practice/
+│
+├── queue/
+│   ├── problems/
+│   ├── top/
+│   ├── leetcode150/
+│   └── practice/
+│
+├── slidingwindow/
+│   ├── problems/
+│   ├── top/
+│   ├── leetcode150/
+│   └── practice/
+│
+├── twopointers/
+│   ├── problems/
+│   ├── top/
+│   ├── leetcode150/
+│   └── practice/
+│
+├── binarysearch/
+│   ├── problems/
+│   ├── top/
+│   ├── leetcode150/
+│   └── practice/
+│
+├── trees/
+│   ├── problems/
+│   ├── top/
+│   ├── leetcode150/
+│   └── practice/
+│
+├── heap/
+│   ├── problems/
+│   ├── top/
+│   ├── leetcode150/
+│   └── practice/
+│
+├── graph/
+│   ├── problems/
+│   ├── top/
+│   ├── leetcode150/
+│   └── practice/
+│
+├── recursion/
+│   ├── problems/
+│   ├── top/
+│   └── practice/
+│
+├── backtracking/
+│   ├── problems/
+│   ├── top/
+│   ├── leetcode150/
+│   └── practice/
+│
+├── greedy/
+│   ├── problems/
+│   ├── top/
+│   ├── leetcode150/
+│   └── practice/
+│
+├── dynamicprogramming/
+│   ├── problems/
+│   ├── top/
+│   ├── leetcode150/
+│   └── practice/
+│
+└── patterns/
+├── fastslowpointer/
+├── prefixsum/
+├── monotonicstack/
+├── intervals/
+├── bfs/
+└── dfs/
 ## Code Documentation Standards
 
 ### Class Documentation Template

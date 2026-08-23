@@ -32,7 +32,7 @@ public class EmpService {
     // INTERNAL STREAM HELPERS
     // -------------------------------------------------------------------------
 
-    private Stream<Emp> empStream() {
+    public Stream<Emp> empStream() {
         return empDao.allEmp().stream();
     }
 

@@ -1,6 +1,6 @@
 package com.firealgo.problemsolving;
 
-import com.firealgo.problemsolving.techniques.slidingwindow.LongestSubstringWithoutRepeating;
+import com.firealgo.problemsolving.slidingWindow.LongestSubstringWithoutRepeating;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
