@@ -1,8 +1,0 @@
-#
-
-## Create  List<Integer> from int[]
-` int[] a = new int[N];
-List<Integer> arr = Arrays.stream(a).boxed().collect(Collectors.toList());
-`
-
-## 
