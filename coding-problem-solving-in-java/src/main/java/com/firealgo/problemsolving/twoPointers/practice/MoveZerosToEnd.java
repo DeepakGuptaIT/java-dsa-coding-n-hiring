@@ -19,16 +19,17 @@ package com.firealgo.problemsolving.twoPointers.practice;
  */
 public class MoveZerosToEnd {
     private static void moveZeros(int[] arr) {
-        int j = 0; // slow pointer
+       int j=0;
+       // move all non zeros to front
         for (int i = 0; i < arr.length; i++) {
-            if(arr[i] !=0) {
-                arr[j] = arr[i];
-                j++;// j will only move if num is non-zero
+            if(arr[i]!=0) {
+                arr[j++] = arr[i];
             }
         }
-        // fill the zeros at the end
-        for (int i = j; i < arr.length; i++) {
-            arr[i] = 0;
+        // fill zeros at remaining position
+        while (j < arr.length) {
+            arr[j++] = 0;
+
         }
 
     }

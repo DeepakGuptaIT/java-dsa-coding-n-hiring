@@ -1,7 +1,7 @@
 package com.firealgo.javabasicconcept.functionalProgramming.lambda;
 
 import com.firealgo.javabasicconcept.dao.EnitityDaoImpl;
-import com.firealgo.javabasicconcept.vo.Person;
+import com.firealgo.javabasicconcept.entity.Person;
 
 import java.util.Collections;
 import java.util.List;

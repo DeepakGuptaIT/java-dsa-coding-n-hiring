@@ -20,7 +20,7 @@ public class TwoSumSortedArray {
     public static void main(String[] args) {
 
         int[] arr = {1, 2, 3, 4, 6};
-        int target = 19;
+        int target = 6;
 
         int[] result = twoSum(arr, target);
 
@@ -28,19 +28,15 @@ public class TwoSumSortedArray {
     }
 
     private static int[] twoSum(int[] arr, int target) {
-        // TODO: Implement two pointer logic
-        int i = 0, j = arr.length - 1;
+        int i = 0, j = arr.length-1;
         while (i < j) {
             int sum = arr[i] + arr[j];
-            if (sum == target) {
-                return new int[]{arr[i], arr[j]};
-            } else if (sum > target) {
-                j--;
-            } else {
-                i++;
+            if(sum == target) {
+                return new int[] {arr[i], arr[j]};
             }
-
+            if(sum > target) j--;
+            else i++;
         }
-        return new int[]{-1,-1};
+        return new int[]{};
     }
 }

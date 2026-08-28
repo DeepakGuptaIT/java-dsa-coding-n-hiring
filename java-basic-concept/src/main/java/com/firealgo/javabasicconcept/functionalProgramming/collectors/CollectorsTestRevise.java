@@ -4,7 +4,7 @@ package com.firealgo.javabasicconcept.functionalProgramming.collectors;
 
 import com.firealgo.javabasicconcept.constant.Constants;
 import com.firealgo.javabasicconcept.dao.EnitityDaoImpl;
-import com.firealgo.javabasicconcept.vo.Emp;
+import com.firealgo.javabasicconcept.entity.Emp;
 
 import java.util.*;
 import java.util.function.BinaryOperator;

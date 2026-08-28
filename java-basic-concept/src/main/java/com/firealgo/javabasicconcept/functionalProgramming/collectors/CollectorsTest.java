@@ -3,8 +3,8 @@ package com.firealgo.javabasicconcept.functionalProgramming.collectors;
 
 
 import com.firealgo.javabasicconcept.dao.EnitityDaoImpl;
-import com.firealgo.javabasicconcept.vo.Dept;
-import com.firealgo.javabasicconcept.vo.Emp;
+import com.firealgo.javabasicconcept.entity.Dept;
+import com.firealgo.javabasicconcept.entity.Emp;
 
 import java.util.*;
 import java.util.concurrent.ForkJoinPool;

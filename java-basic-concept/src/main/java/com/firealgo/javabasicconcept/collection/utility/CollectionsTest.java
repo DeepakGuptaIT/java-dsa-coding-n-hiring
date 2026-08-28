@@ -3,7 +3,7 @@ package com.firealgo.javabasicconcept.collection.utility;
 
 
 import com.firealgo.javabasicconcept.dao.EnitityDaoImpl;
-import com.firealgo.javabasicconcept.vo.Emp;
+import com.firealgo.javabasicconcept.entity.Emp;
 
 import java.util.ArrayList;
 import java.util.Collections;

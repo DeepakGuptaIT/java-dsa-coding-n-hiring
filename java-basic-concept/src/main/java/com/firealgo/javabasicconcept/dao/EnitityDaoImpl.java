@@ -1,9 +1,9 @@
 package com.firealgo.javabasicconcept.dao;
 
 import com.firealgo.javabasicconcept.constant.Constants;
-import com.firealgo.javabasicconcept.vo.Dept;
-import com.firealgo.javabasicconcept.vo.Emp;
-import com.firealgo.javabasicconcept.vo.Person;
+import com.firealgo.javabasicconcept.entity.Dept;
+import com.firealgo.javabasicconcept.entity.Emp;
+import com.firealgo.javabasicconcept.entity.Person;
 
 
 import java.time.LocalDateTime;

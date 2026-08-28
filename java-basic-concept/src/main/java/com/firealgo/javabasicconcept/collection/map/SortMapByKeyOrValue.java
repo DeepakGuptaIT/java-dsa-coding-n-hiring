@@ -1,6 +1,6 @@
 package com.firealgo.javabasicconcept.collection.map;
 
-import com.firealgo.javabasicconcept.vo.Student;
+import com.firealgo.javabasicconcept.entity.Student;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;

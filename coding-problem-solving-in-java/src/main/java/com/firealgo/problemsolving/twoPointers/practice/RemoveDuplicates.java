@@ -24,9 +24,9 @@ public class RemoveDuplicates {
 
     public static void main(String[] args) {
 
-        int[] arr = {1, 1, 2, 2, 3};
+        int[] arr = {1,1,2,2,2,3};
 
-        int result = removeDuplicates(arr);
+        int result = removeDuplicatesII(arr);
 
         System.out.println("Unique elements: " + result);
 
@@ -36,17 +36,32 @@ public class RemoveDuplicates {
         }
     }
 
-    // note array is sorted
-    private static int removeDuplicates(int[] arr) {
-        // TODO: Implement same-direction two pointer logic
-        int j = 1; // slow pointer
-        for (int i = 1; i < arr.length; i++) {
-            if(arr[i] != arr[j-1]) {
-                arr[j] = arr[i];
-                j++;
+    public static int removeDuplicatesII(int[] arr) {
+        int j = 0;
+
+        // Fast pointer scans the entire array
+        for (int i = 0; i < arr.length; i++) {
+            if(j < 2 || arr[i] != arr[j-2]) {
+                arr[j++] = arr[i];
             }
+
         }
 
+        // slow represents the number of valid elements
         return j;
+    }
+
+    // note array is sorted
+    // {1, 1, 2, 2, 3};
+    private static int removeDuplicates(int[] arr) {
+        int j = 0; // slow pointer
+        for (int i = 1; i < arr.length; i++) {
+            if(arr[j] != arr[i]) {
+                j++;
+                arr[j] = arr[i];
+            }
+
+        }
+        return j+1;
     }
 }
